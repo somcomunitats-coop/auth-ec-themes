@@ -13,7 +13,7 @@
             <#if pageRedirectUri?has_content>
                 <p><a href="${pageRedirectUri}">${kcSanitize(msg("backToApplication"))?no_esc}</a></p>
             <#elseif actionUri?has_content>
-                <p><a href="${actionUri}">${kcSanitize(msg("proceedWithAction"))?no_esc}</a></p>
+                <h1 id="kc-page-title"><a href="${actionUri}">${kcSanitize(msg("proceedWithAction"))?no_esc}</a></h1>
             <#elseif (client.baseUrl)?has_content>
                 <p><a href="${client.baseUrl}">${kcSanitize(msg("backToApplication"))?no_esc}</a></p>
             </#if>
