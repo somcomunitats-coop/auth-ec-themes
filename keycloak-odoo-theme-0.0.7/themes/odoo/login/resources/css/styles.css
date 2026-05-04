@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
   /* Primary colors */
@@ -38,7 +38,7 @@
   color: var(--primaryBlack);
   line-height: 1em;
   font-size: 28px;
-  font-family: "Besley";
+  font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 800
 }
@@ -48,7 +48,7 @@
   color: var(--primaryGreen);
   line-height: 28px;
   font-size: 22px;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 500;
   text-align: -webkit-center;
 
@@ -67,7 +67,7 @@
   color: var(--primaryBlack);
   line-height: 1.1em;
   font-size: 28px;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@
   color: var(--textOffColor);
   line-height: 1.7em;
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "Open Sans";
 }
 
 .link,
@@ -86,7 +86,7 @@ a {
   color: var(--linkColor);
   line-height: 1.7em;
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 500;
 }
 
@@ -114,7 +114,7 @@ body {
   padding: 10px 40px 10px 40px;
   font-size: 16px;
   color: var(--black);
-  font-family: "Raleway";
+  font-family: "Open Sans";
   /* How to import Raleway font? */
   font-weight: 700;
   /* background: var(--buttonColor)!important; */
@@ -156,7 +156,7 @@ body {
   height: 3rem;
   /* Font: regularText */
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   color: var(--textOffColor);
   line-height: 1.7em;
   font-style: normal;
@@ -253,7 +253,7 @@ body {
 }
 
 .login-pf-page .login-pf-header {
-  margin: 10rem 3rem 1rem 3rem;
+  margin: 1rem 3rem 1rem 3rem;
 }
 
 .login-pf-page .card-pf p {
@@ -313,7 +313,7 @@ body {
 .input-error {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   background-color: rgba(220, 38, 38, 0.1);
   border: 1px solid var(--error);
   height: 3rem;
@@ -324,7 +324,7 @@ body {
 .input {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Raleway";
+  font-family: "Open Sans";
   background: none;
 }
 
@@ -357,6 +357,10 @@ body {
   font-size: 16px;
   color: var(--primaryGreen) !important;
 }
+
+.som-logo-img {
+  background-color: var(--primaryGreen);
+} 
 
 .img-wrapper {
   width: 58px;
